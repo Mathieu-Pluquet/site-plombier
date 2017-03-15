@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*start of header nav*/
+
+h1 {
+  text-align: center;
+  margin-left: 27%;
+  font-size: 250%;
+}
+
+li {
+  display: inline-block;
+  margin:60px;
+  margin-left: 90px;
+  font-size: 20px;
+
+}
+
+header {
+  height: 200px;
+  background-color:;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+
+}
+
+nav {
+  height: 100px;
+  background-color: grey;
+}
+
+ul {
+  margin-left: 100px;
+
+}
+
+img {
+  height: 200px;
+}
+
+img, h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*end of header nav*/
