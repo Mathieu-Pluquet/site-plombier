@@ -108,3 +108,7 @@ td {
 }
 
 /*page contact*/
+
+.sectioncontact {
+  display: block;
+}
