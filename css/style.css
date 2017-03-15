@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
 /*start of header nav*/
 
 h1 {
@@ -29,7 +37,7 @@ header {
 
 nav {
   height: 100px;
-  background-color: grey;
+  background-color: #CECECE	;
 }
 
 ul {
@@ -47,3 +55,40 @@ img, h1 {
 }
 
 /*end of header nav*/
+
+/*start of section */
+
+section {
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.img1, .texte1 {
+  margin-top: 50px;
+}
+
+.img2 {
+  width: 300px;
+}
+
+/*start of footer*/
+
+footer {
+  height: 100px;
+  background-color: #CECECE;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.adv {
+  margin-left: 20px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
