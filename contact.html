@@ -30,15 +30,33 @@
 
     <!-- start of section -->
 
-    <section class="sectioncontact">
-      <label for="">nom:</label><input type="text" name="nom:" value="">
-      <label for="">prenom:</label><input type="text" name="nom:" value="">
-      <label for="">email:</label><input type="email" name="" value="">
-      <label for="ameliorer">note:</label><br />
-       <textarea name="ameliorer" id="ameliorer"></textarea>
-       <input type="submit" name="" value="valider">
+    <form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" autofocus/>
+    </div>
+    <div>
+        <label for="nom">Prenom :</label>
+        <input type="text" id="prenom" />
+    </div>
+    <div>
+        <label for="courriel">Email :</label>
+        <input type="email" id="courriel" />
+    </div>
+    <div>
+        <label for="prix">Prix :</label>
+        <input type="number" id="prix" />
+    </div>
+    <div>
+        <label for="message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
 
-    </section>
+    <div class="button">
+        <button type="submit">Envoyer votre message</button>
+    </div>
+</form>
+
 
   </body>
 </html>
