@@ -9,6 +9,7 @@ html, body {
 
 body {
   width: 100%;
+  display: table;
 }
 /*start of header nav*/
 
@@ -20,10 +21,10 @@ h1 {
 
 li {
   display: inline-block;
-  margin:60px;
-  margin-left: 90px;
   font-size: 20px;
-
+  width: 23%;
+  margin: auto;
+  margin-top: 1.9em;
 }
 
 header {
@@ -41,8 +42,9 @@ nav {
 }
 
 ul {
-  margin-left: 100px;
-
+  width: 100%;
+  margin: auto;
+  margin-left: 5em;
 }
 
 img {
@@ -59,7 +61,7 @@ img, h1 {
 /*start of section */
 
 section {
-  height: 500px;
+  height: 50em;
 }
 
 h2 {
@@ -77,14 +79,13 @@ h2 {
 /*start of footer*/
 
 footer {
-  height: 100px;
+  display: table-row;
+  height: 50px;
   background-color: #CECECE;
   text-align: center;
-  margin-top: 250px;
 }
 
 .adv {
-  margin-left: 20px;
   color: grey;
 }
 
@@ -99,8 +100,9 @@ a {
 table {
   border-collapse: collapse;
   font-size: 30px;
-  margin-top: 0px;
   text-align: center;
+  margin: auto;
+  margin-top: 50px;
 
 }
 
@@ -108,22 +110,26 @@ td {
   border: 1px solid black;
 }
 
+td , th {
+  height: 2em;
+  width: 10em;
+
+}
 /*page contact*/
 
 form {
-    /* Pour le centrer dans la page */
-    margin: 0 auto;
+
+    margin: auto;
     width: 400px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    margin-top: 5em;
 }
 
-
-form div, div {
-    margin-top: 1em;
+form label, form input, form textarea {
+  margin-top:1.5em;
 }
-
 
 label {
     display: inline-block;
